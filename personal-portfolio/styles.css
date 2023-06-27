@@ -1,0 +1,25 @@
+.nav-bar {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.navigation {
+    display: flex;
+    gap: 6px;
+}
+
+li {
+    list-style-type: none;
+}
+
+li>a {
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}

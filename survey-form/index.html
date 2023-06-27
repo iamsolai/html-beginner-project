@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+<body>
+  <header>
+  <h1 id="title">freeCodeCamp Survey Form
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+  </h1>
+  </header>
+  <form id="survey-form">
+   <div>
+   <label id="name-label" for="name">Name</label>
+    <input id="name" name="name" type="text" placeholder="Enter your name" required>
+    </div>
+
+    <div>
+    <label id="email-label" for="email">Email</label>
+    <input id="email" name="email" type="email" placeholder="Enter your Email" required>
+    </div>
+
+     <div>
+    <label id="number-label" for="number">Age(optional)</label>
+    <input id="number" name="age"type="number" placeholder="Age" min="10" max="100">
+    <div>
+
+      <div>
+    <p>Which option best describes your current role</p>
+     <select id="dropdown" name="role">
+       <option disabled selected value>Select current role</option>
+       <option>Student</option>
+       <option>Full Time job</option>
+       <option>Full Time Learner</option>
+       <option>Prefer not to say</option>
+       <option>Other</option>
+     </select>
+     </div>
+
+      <div>
+        <p>Would you recommend freeCodeCamp to a friend?</p>
+        <label>
+     <input type="radio" name="user-recommend" value="definitely" checked>Definitely
+     </label>
+
+     <label>
+     <input type="radio" name="user-recommend" value="maybe">Maybe
+     </label>
+
+      <label>
+     <input type="radio" name="user-recommend" value="not-sure">Not sure
+     </label>
+     </div>
+
+     <input type="checkbox" value="user-choice"/>
+     <input type="checkbox" value="user-choice"/>
+
+     <button id="submit" type="submit">Submit</button>
+
+     <textarea></textarea>
+
+  </form>
+  
+    
+</body>
+</html>

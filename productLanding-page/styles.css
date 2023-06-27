@@ -1,0 +1,24 @@
+.navigation {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+nav>ul {
+    display: flex;
+    cursor: pointer;
+    list-style-type: none;
+    gap: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+@media screen and (min-width: 480px) {
+    body {
+        background-color: lightgreen;
+    }
+}
